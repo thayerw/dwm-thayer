@@ -4,8 +4,7 @@ This repository contains my customizations to the dwm tiling window manager for 
 
 ## Patches
 
-As much as I love dwm's minimilistic approach, I find that some community
-patches significantly improve my workflow and overall user experience. The
+As much as I love dwm's minimilistic approach, I find that some community patches significantly improve my workflow and overall user experience. The
 following patches have been incorporated into my config:
 
 * [barheight](https://dwm.suckless.org/patches/bar_height/): allows the statusbar height to be defined in user config
@@ -21,15 +20,9 @@ following patches have been incorporated into my config:
 
 ## Patch workflow
 
-Managing patches is a hot topic for many users. I prefer to add patches
-manually using `git apply <patchname>.diff`, as I often modify the patch files
-beforehand in order to suit my needs. Once you familiarize yourself with dwm's
-source code, it's pretty easy to decipher changes between revisions.
+Managing patches is a hot topic for many users. I prefer to add patches manually using `git apply <patchname>.diff`, as I often modify the patch files beforehand in order to suit my needs. Once you familiarize yourself with dwm's source code, it's pretty easy to decipher changes between revisions.
 
 ## Installation
 
-For instructions on how to install and run dwm, see the README file in the
-master branch, or visit <https://dwm.suckless.org/>. My configuration has no
-additional requirements beyond what is normally needed to build and execute
-dwm.
+For instructions on how to install and run dwm, see the README file in the [master branch](https://github.com/thayerwilliams/dwm-thayer/tree/master), or visit <https://dwm.suckless.org/>. My configuration has no additional requirements beyond what is normally needed to build and execute dwm.
 
