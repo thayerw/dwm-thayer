@@ -47,6 +47,8 @@ static const Layout layouts[] = {
 	{ NULL,       NULL },
 };
 
+#include "maximize.c"
+
 /* key definitions */
 #define MODKEY Mod4Mask
 #define TAGKEYS(KEY,TAG) \
@@ -85,6 +87,11 @@ static Key keys[] = {
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY|ShiftMask,             XK_f,      togglefakefullscreen, {0} },
+	{ MODKEY|ControlMask|ShiftMask, XK_h,      togglehorizontalmax,  {0} },
+	{ MODKEY|ControlMask|ShiftMask, XK_l,      togglehorizontalmax,  {0} },
+	{ MODKEY|ControlMask|ShiftMask, XK_j,      toggleverticalmax,    {0} },
+	{ MODKEY|ControlMask|ShiftMask, XK_k,      toggleverticalmax,    {0} },
+	{ MODKEY|ControlMask|ShiftMask, XK_m,      togglemax,            {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
 	{ MODKEY,                       XK_comma,  focusmon,       {.i = -1 } },
