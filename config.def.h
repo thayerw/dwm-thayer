@@ -37,6 +37,7 @@ static const Rule rules[] = {
 	{ "Gimp",         NULL,       NULL,       0,            1,           -1 },
 	{ "firefox",      NULL,       NULL,       1 << 1,       0,           -1 },
 	{ "stalonetray",  NULL,       NULL,       1 << 6,       1,           -1 },
+	{ "KeePassXC",    NULL,       NULL,       1 << 6,       1,           -1 },
 };
 
 /* layout(s) */
