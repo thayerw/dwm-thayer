@@ -24,5 +24,5 @@ Managing patches is a hot topic for many users. I prefer to add patches manually
 
 ## Installation
 
-For instructions on how to install and run dwm, see the README file in the [master branch](https://github.com/thayerwilliams/dwm-thayer/tree/master), or visit <https://dwm.suckless.org/>. My configuration has no additional requirements beyond what is normally needed to build and execute dwm.
+For instructions on how to install and run dwm, see the upstream [README](https://github.com/thayerwilliams/dwm-thayer/blob/master/README), or visit <https://dwm.suckless.org/>. My configuration has no additional requirements beyond what is normally needed to build and execute dwm.
 
