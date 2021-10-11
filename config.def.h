@@ -1,27 +1,27 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 2;        /* border pixel of windows */
+static const unsigned int borderpx  = 4;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
-static const unsigned int gappih    = 20;       /* horiz inner gap between windows */
-static const unsigned int gappiv    = 20;       /* vert inner gap between windows */
-static const unsigned int gappoh    = 20;       /* horiz outer gap between windows and screen edge */
-static const unsigned int gappov    = 20;       /* vert outer gap between windows and screen edge */
+static const unsigned int gappih    = 16;       /* horiz inner gap between windows */
+static const unsigned int gappiv    = 16;       /* vert inner gap between windows */
+static const unsigned int gappoh    = 16;       /* horiz outer gap between windows and screen edge */
+static const unsigned int gappov    = 16;       /* vert outer gap between windows and screen edge */
 static       int smartgaps          = 1;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const int user_bh            = 34;       /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
-static const char dmenu_bh[]        = "34";     /* minimum line height of dmenu (dmenu-lineheight patch) */
-static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=11" };
-static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=11";
-static const char col_grey1[]       = "#0a0a0a";
+static const int user_bh            = 30;       /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
+static const char dmenu_bh[]        = "30";     /* minimum line height of dmenu (dmenu-lineheight patch) */
+static const char *fonts[]          = { "JetBrains Mono:size=13:style=bold", "JetBrainsMono Nerd Font:size=14" };
+static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=13";
+static const char col_grey1[]       = "#151515";
 static const char col_grey2[]       = "#333333";
-static const char col_grey3[]       = "#666666";
+static const char col_grey3[]       = "#555555";
 static const char col_grey4[]       = "#ffffff";
-static const char col_highlight[]   = "#e2a918";
+static const char col_highlight[]   = "#6c5da6";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_grey3, col_grey1, col_grey2 },
+	[SchemeNorm] = { col_grey3, col_grey1, col_grey1 },
 	[SchemeSel]  = { col_grey4, col_grey1, col_highlight  },
 };
 
