@@ -34,10 +34,13 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",         NULL,       NULL,       0,            1,           -1 },
 	{ "firefox",      NULL,       NULL,       1 << 1,       0,           -1 },
+	{ "Gcolor3",      NULL,       NULL,       0,            1,           -1 },
+	{ "Gimp",         NULL,       NULL,       0,            1,           -1 },
+	{ "Gnome-calculator", NULL,   NULL,       0,            1,           -1 },
+	{ "Nitrogen",     NULL,       NULL,       0,            1,           -1 },
 	{ "stalonetray",  NULL,       NULL,       1 << 6,       1,           -1 },
-	{ "KeePassXC",    NULL,       NULL,       1 << 6,       1,           -1 },
+	{ "KeePassXC",    NULL,       NULL,       0,            1,           -1 },
 };
 
 /* layout(s) */
